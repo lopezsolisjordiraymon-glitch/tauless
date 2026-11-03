@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari setmanal - 1r SMX</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #234e70;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #e8f0f5;
+        }
+
+        .hores {
+            background-color: #d5d5d5;
+            font-weight: bold;
+        }
+
+        .pati {
+            background-color: #16f057;
+            font-weight: bold;
+        }
+
+        .taller {
+            background-color: #b7d7f0;
+        }
+
+        .projecte {
+            background-color: #c5e1c5;
+        }
+
+        tfoot {
+            background-color: #234e70;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <caption>HORARI SETMANAL — 1r SMX</caption>
+
+    <thead>
+        <tr>
+            <th>Hores</th>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <th class="hores">08:00 - 09:00</th>
+            <td>Muntatge</td>
+            <td class="taller" rowspan="2">Taller de xarxes</td>
+            <td>Sistemes operatius</td>
+            <td>Aplicacions web</td>
+            <td>Anglès</td>
+        </tr>
+
+        <tr>
+            <th class="hores">09:00 - 10:00</th>
+            <td>Xarxes locals</td>
+            <td>Serveis de xarxa</td>
+            <td>Sistemes operatius</td>
+            <td>Aplicacions web</td>
+        </tr>
+
+        <tr>
+            <th class="hores">10:00 - 11:00</th>
+            <td>Sistemes operatius</td>
+            <td>Aplicacions web</td>
+            <td>Xarxes locals</td>
+            <td>Muntatge</td>
+            <td>Serveis de xarxa</td>
+        </tr>
+
+        <tr>
+            <th class="hores">11:00 - 11:30</th>
+            <td class="pati" colspan="5">PATI</td>
+        </tr>
+
+        <tr>
+            <th class="hores">11:30 - 12:30</th>
+            <td>Anglès</td>
+            <td>Xarxes locals</td>
+            <td>Muntatge</td>
+            <td>Serveis de xarxa</td>
+            <td>Sistemes operatius</td>
+        </tr>
+
+        <tr>
+            <th class="hores">12:30 - 13:30</th>
+            <td>Aplicacions web</td>
+            <td>Serveis de xarxa</td>
+            <td>Anglès</td>
+            <td class="projecte" rowspan="2">Projecte</td>
+            <td>Muntatge</td>
+        </tr>
+
+        <tr>
+            <th class="hores">13:30 - 14:30</th>
+            <td>Xarxes locals</td>
+            <td>Sistemes operatius</td>
+            <td>Aplicacions web</td>
+            <td>Serveis de xarxa</td>
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="6">
+                CFGM SMX — Grup 1r SMX — Aula d'informàtica
+            </td>
+        </tr>
+    </tfoot>
+
+</table>
+
+</body>
+</html>
